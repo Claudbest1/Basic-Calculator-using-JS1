@@ -1,11 +1,12 @@
 // program for a simple calculator
 
-// take the operand input
+// take the first operand input
 const number1 = parseFloat(prompt("Enter first number: "));
 
 // take the operator input
 const operator = prompt("Enter operator ( either +, -, * or / ): ");
 
+// take the second operand input
 const number2 = parseFloat(prompt("Enter second number: "));
 
 let result;
